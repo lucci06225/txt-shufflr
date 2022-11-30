@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  margin-bottom: 2rem;
+}
+
+.shuffle {
+  margin: 2rem 0;
+}
+
+.footer {
+  background-color: #000;
+  min-height: 3rem;
+  padding: 1rem;
+}
+
+.notification {
+  width: 15rem;
+  position: fixed;
+  right: 0;
+  top: 4rem;
+  transition: transform 200ms ease-out;
+}
+
+.footer .icons svg {
+  height: 24px;
+  width: 24px;
+}
+
+.footer .icons a {
+  margin: 0 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notification.hide {
+  transform: translateX(100%);
+}
