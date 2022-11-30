@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Txt Shufflr</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Let's Shuffle
+        </h1>
+        <h2 class="subtitle">
+          Mix up your sentences.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <form id="shuffle-form">
+      <textarea rows="8" cols="20" class="textarea" name="text" placeholder="Enter original Text here">Lucci</textarea>
+      <label class="checkbox has-text-right">
+        <input type="checkbox" name="preserve" checked>
+        Preserve Words
+      </label>
+      <div class="has-text-centered">
+        <button class="button shuffle is-link">Shuffle</button>
+      </div>
+    </form>
+    <textarea name="shuffled" rows="8" cols="20" placeholder="Shuffled Text" readonly class="textarea" id="shuffled-text">
+    </textarea>
+  </div>
+  <div class="notification is-info hide" id="notification">
+    Copied to clipboard
+  </div>
+</body>
+
+<script type="text/javascript" src="js/scripts.js"></script>
+</html>
